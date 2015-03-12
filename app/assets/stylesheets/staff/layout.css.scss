@@ -1,0 +1,39 @@
+@import 'colors';
+@import 'dimensions';
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+div#wrapper {
+  position: relative;
+  box-sizing: border-box;
+  min-height: 100%;
+  margin: 0 auto;
+  padding-bottom: ($wide + $moderate) * 2 + $standardLineHeight;
+  background: $gray;
+}
+
+header {
+  padding: $moderate;
+  background: $darkCyan;
+  color: $veryLightGray;
+  span.logo-mark {
+    font-weight: bold;
+  }
+}
+
+footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  background: $darkGray;
+  color: $veryLightGray;
+  p {
+    text-align: center;
+    padding: $moderate;
+    margin: 0;
+  }
+}
