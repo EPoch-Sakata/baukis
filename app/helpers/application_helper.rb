@@ -6,5 +6,4 @@ module ApplicationHelper
       'Baukis'
     end
   end
-
 end
