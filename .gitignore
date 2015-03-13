@@ -19,3 +19,4 @@
 *.pyo
 .project
 .DS_Store
+/.vagrant/*
