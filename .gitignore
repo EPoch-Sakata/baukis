@@ -17,6 +17,9 @@
 *.class
 *.pyc
 *.pyo
+*.keep
 .project
 .DS_Store
 /.vagrant/*
+Vagrantfile
+/public/assets/*
